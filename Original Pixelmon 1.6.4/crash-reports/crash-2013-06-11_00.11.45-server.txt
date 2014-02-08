@@ -1,0 +1,40 @@
+---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 6/11/13 12:11 AM
+Description: Exception in server tick loop
+
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:459)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:573)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.5.2
+	Operating System: Windows 8 (amd64) version 6.2
+	Java Version: 1.7.0_21, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 400266800 bytes (381 MB) / 481492992 bytes (459 MB) up to 894828544 bytes (853 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 0, tcache: 0, allocated: 3, tallocated: 63
+	FML: MCP v7.51 FML v5.2.21.725 Minecraft Forge 7.8.0.725 10 mods loaded, 10 mods active
+	mcp{7.44} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{5.2.21.725} [Forge Mod Loader] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{7.8.0.725} [Minecraft Forge] (coremods) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	mod_bspkrsCore{v2.07(1.5.2)} [bspkrsCore] ([1.5.2]bspkrsCorev2.07.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Familiars_API{1.5.1} [Familiars API] (Familiars-API-1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	TreeCapitator{Forge 1.5.2.r01} [TreeCapitator] ([1.5.2]TreeCapitator.Forge.1.5.2.r01.Uni.CoreMod.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Backpack{1.8.11} [Backpack] (backpack-1.8.11-1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Familiars_ExtendedFamPack{1.5.1} [ExtendedFamPack] (Familiars-Extended-FamPack-1.5.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Familiars_DefaultMobPack{1.5.2} [DefaultMobPack] (Familiars_DefaultMobPack_1.5.2c.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Pixelmon{2.2} [Pixelmon] (Pixelmon 2.2.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
